@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+}
+#navbar{
+    border-bottom: 1px solid rgb(121, 121, 121);
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+}
+#burger{
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+#logo{
+    /* border: 1px solid red; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#logo>img{
+    width: 35%;
+    height: 51%;
+}
+#logo>p{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+#searcharea{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    margin-left: 150px;
+    width: 50%;
+}
+#searcharea>input{
+    height: 100%;
+    border: none;
+    padding: 0px 10px;
+    outline: none;
+    width: 80%;
+    font-size: 19px;
+    /* outline-color: #7676ab; */
+    background-color: #121212;
+    color: white;
+}
+#searchBtn{
+    /* border: 2px solid violet; */
+    /* height: 100%; */
+    background-color: #323232;
+    color: #ffffff;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    width: 64px;
+}
+#microphone{
+    /* border: 2px solid rgb(9, 33, 138); */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    height: 100%;
+    color: #ffffff;
+    width: 40px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#icons{
+    /* border: 2px solid red; */
+    color: #c9c9c9;
+    font-size: 20px;
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 157px;
+}
+#icons > i:last-child{
+    font-size: 29px;
+}
+#icons > i{
+    cursor: pointer;
+}
+
+#searchresults{
+    width: 80%;
+    margin: 20px auto;
+}
+#searchresults>div{
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#infodiv{
+    margin-left: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+#infodiv>p{
+    font-size: 13px;
+    color: #868686;
+    margin-bottom: 15px;
+}
+#infodiv>p:first-child{
+    font-size: 20px;
+    color: #f7f7e2;
+}

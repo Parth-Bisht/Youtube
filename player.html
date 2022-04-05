@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/player.css">
+    <script src="https://kit.fontawesome.com/157f106a6a.js" crossorigin="anonymous"></script>
+    <title>Youtube</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <div id="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div onclick="gotohome()" id="logo">
+            <img src="styles/imageedit_3_2596935175.png" alt="">
+            <p>Youtube</p>
+        </div>
+        <div id="searcharea">
+            <input id="search" type="text" placeholder="Search">
+            <button onclick="searchV()" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div id="microphone"><i class="fa-solid fa-microphone"></i></div>
+        </div>
+        <div id="icons">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-table-cells"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+
+    </header>
+    <section id="player">
+        <div id="primary">
+
+        </div>
+        <div id="secondary">
+
+        </div>
+    </section>
+</body>
+<script src="/scripts/player.js"></script>
+<script>
+    function gotohome() {
+        window.location.href = "index.html"
+    }
+</script>
+
+</html>
